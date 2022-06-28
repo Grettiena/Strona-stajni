@@ -1,6 +1,5 @@
 TRu wpisz tresc<br>
-
-<form id="form" action="/my-handling-form-page" method="post">
+<form action="/my-handling-form-page" method="post">
  <ul>
   <li><br>
     <label for="name">Name:</label>

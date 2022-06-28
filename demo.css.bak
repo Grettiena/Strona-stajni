@@ -102,5 +102,9 @@ li a:hover{
 }
 
 .footer{
-	color:#white;
+	color:white;
+}
+img{
+	border: double 10px #ff1a8c;
+
 }

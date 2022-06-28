@@ -53,14 +53,11 @@ h2{
 	
 	color:#999999;
 }
-ul{
-	margin:30px 0px;
-}
 
 li{
 	list-style:none;
 	display:block;
-	float:right;
+	float:left;
 	width:80px;
 }
 
@@ -110,10 +107,3 @@ color:white;}
 	height: auto;
 }
 
-#form{
-	width:100px;
-	list-style:none;
-	display:block;
-	float:center;
-	margin:30px 0px;
-}

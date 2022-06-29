@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -20,7 +20,7 @@
     <li><a href="#page1">O nas</a></li>
     <li><a href="#page2">Stajnia</a></li>
     <li><a href="#page3">Konie</a></li>
-    <li><a href="#page4">Kontakt</a></li>
+    <li><a href="#ajax-form">Kontakt</a></li>
     <li><img id="loading" src="img/ajax_load.gif" alt="loading" /></li>
     </ul>
     

@@ -13,7 +13,7 @@
   <input type="number" id="number" name="number" ><br><br>
     <label for="message">Wiadomość:</label><br>
   <textarea id="message" name="message" class="fcf-form-control" rows="6" maxlength="1000" required></textarea><br><br>
-  <button type="submit"> Wyślij</button>
+  <input type="submit">
 </form> 
 <script>
         $(document).ready(function() {

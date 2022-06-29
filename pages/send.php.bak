@@ -1,0 +1,18 @@
+<?php
+    require_once "databasecon.php";
+ 
+    $fullname = mysqli_real_escape_string($conn, $_POST['fname']);
+	$lastname = mysqli_real_escape_string($conn, $_POST['lname']);
+    $number = mysqli_real_escape_string($conn, $_POST['number']);
+    $message = mysqli_real_escape_string($conn, $_POST['message']);
+ 
+ 
+    if(mysqli_query($conn, "INSERT INTO stajnia(fullname, lastname, number, message) VALUES('" . $fname . "', '" . $lname . "', '" . $number . "', '" . $message . "')")) {
+     echo '1';
+    } else {
+       echo "Error: " . $sql . "" . mysqli_error($conn);
+    }
+ 
+    mysqli_close($conn);
+ 
+?>

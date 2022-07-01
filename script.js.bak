@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 	});
 	
-
+	//filling in the default content
 	default_content = $('#pageContent').html();
 	
 	
@@ -27,7 +27,8 @@ function checkURL(hash)
 	{
 		lasturl=hash;
 		
-
+		// FIX - if we've used the history buttons to return to the homepage,
+		// fill the pageContent with the default_content
 		
 		if(hash=="")
 		$('#pageContent').html(default_content);

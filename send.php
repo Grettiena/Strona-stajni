@@ -7,7 +7,7 @@
     $message = mysqli_real_escape_string($conn, $_POST["message"]);
  
  
-    if(mysqli_query($conn, "INSERT INTO wiadomosc(firstname, lastname, number, message) VALUES(" . $firstname . ", " . $lastname . ", " . $number . ", " . $message . ")")) {
+    if(mysqli_query($conn, "INSERT INTO wiadomosc(firstname, lastname, number, message) VALUES('" . $firstname . "', '" . $lastname . "', '" . $number . "', '" . $message . "')")) {
      echo 'Wysłano!';
     } else {
        echo "Error: " . $sql . "" . mysqli_error($conn);
